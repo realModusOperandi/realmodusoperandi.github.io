@@ -17,7 +17,7 @@ Jekyll also offers powerful support for code snippets:
 
 {% highlight swift linenos %}
 func printHi(_ name: String) {
-  print("Hi, \(name))
+  print("Hi, \(name)")
 }
 printHi("Butts")
 // prints 'Hi, Butts' to STDOUT.
