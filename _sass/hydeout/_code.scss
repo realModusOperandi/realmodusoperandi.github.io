@@ -32,11 +32,10 @@ pre code {
 
 // Pygments/Rouge via Jekyll
 .highlight {
-  background-color: #f9f9f9;
+  background-color: transparent;
   border-radius: 0.25rem;
   font-size: 0.8rem;
   line-height: 1.4;
-  margin-bottom: 1rem;
   padding: 1rem;
 
   pre {
@@ -49,6 +48,7 @@ pre code {
     display: inline-block; // Ensures the null space also isn't selectable
     padding-left: 0.25rem;
     padding-right: 0.75rem;
+    -webkit-user-select: none;
     user-select: none; // Make sure numbers aren't selectable
   }
 }
